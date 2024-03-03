@@ -11,124 +11,160 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <img class="header-img" src="./img/logo.svg" alt="logo">
-        <p class="header-title">Котоff.NET</p>
+    <header class="header container">
+        <div class="flex header-logo">
+            <img class="header-img" src="./img/logo.svg" alt="logo">
+            <p class="header-title">Котоff.NET</p>
+        </div>
         <nav>
-            <ul>
-                <li><a class="header-nav-link" href="">главная</a></li>
-                <li><a class="header-nav-link" href="">руководства</a></li>
-                <li><a class="header-nav-link" href="">форум</a></li>
-                <li><a class="header-nav-link" href="">о сайте</a></li>
-                <li><a class="header-nav-link" href="">контакты</a></li>
+            <ul class="flex">
+                <li class="header-nav-link-item"><a class="header-nav-link" href="">главная</a></li>
+                <li class="header-nav-link-item"><a class="header-nav-link" href="">руководства</a></li>
+                <li class="header-nav-link-item"><a class="header-nav-link" href="">форум</a></li>
+                <li class="header-nav-link-item"><a class="header-nav-link" href="">о сайте</a></li>
+                <li class="header-nav-link-item"><a class="header-nav-link" href="">контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="desc">
-            <h1 class="desc-title">Первый в мире кошачий портал</h1>
-            <a class="desc-link" href="#">Наша презентация</a>
+            <ul class="container flex">
+                <li>
+                    <h1 class="desc-title">Первый в мире кошачий портал</h1>
+                </li>
+                <li>
+                    <a class="desc-link" href="#">Наша презентация</a>
+                </li>
+            </ul>
         </section>
         <section class="services">
-            <h2 class="section-title">руководства</h2>
-            <p class="section-subtitle">Научись жить жизнь с нашими гайдами</p>
-            <ul>
-                <li><a class="service-item-link1" href="#"><span class="service-item-title">Как есть дешевый корм и не откинуть лапы</span></a></li>
-                <li><a class="service-item-link2" href="#"><span class="service-item-title">Ссым в тапки беспалевно</span></a></li>
-                <li><a class="service-item-link3" href="#"><span class="service-item-title">Топ 10 мест для сна</span></a></li>
-                <li><a class="service-item-link4" href="#"><span class="service-item-title">Хочешь поймать красную точку? Легко!</span></a></li>
-                <li><a class="service-item-link5" href="#"><span class="service-item-title">Ночной тыгыдык. Базовые упражнения</span></a></li>
-                <li><a class="service-item-link6" href="#"><span class="service-item-title">Как объяснить кожаным кто главный</span></a></li>
-            </ul>
+            <div class="container">
+                <h2 class="section-title">руководства</h2>
+                <p class="section-subtitle section-sub-title">Научись жить жизнь с нашими гайдами</p>
+                <ul class="services-list">
+                    <li class="service-item"><a class="service-item-link1" href="#"><span class="service-item-title">Как есть дешевый корм и не откинуть лапы</span></a></li>
+                    <li class="service-item"><a class="service-item-link2" href="#"><span class="service-item-title">Ссым в тапки беспалевно</span></a></li>
+                    <li class="service-item"><a class="service-item-link3" href="#"><span class="service-item-title">Топ 10 мест для сна</span></a></li>
+                    <li class="service-item"><a class="service-item-link4" href="#"><span class="service-item-title">Хочешь поймать красную точку? Легко!</span></a></li>
+                    <li class="service-item"><a class="service-item-link5" href="#"><span class="service-item-title">Ночной тыгыдык. Базовые упражнения</span></a></li>
+                    <li class="service-item"><a class="service-item-link6" href="#"><span class="service-item-title">Как объяснить кожаным кто главный</span></a></li>
+                </ul>
+            </div>
         </section>
         <section class="we">
-            <h2 class="section-title">О нас</h2>
-            <p class="section-subtitle">Котоff.NET</p>
-            <p class="we-text">Котоff.NET - это первый в мире портал для семейства кошачих. Заходи к нам, когда кожаные уходят на работу. Здесь ты найдешь чем заняться и найдешь единомышленников. </p>
-            <ul>
-                <li class="we-item">
-                    <p class="we-item-num">64</p>
-                    <p class="we-item-text">создано руководств</p>
-                </li>
-                <li class="we-item">
-                    <p class="we-item-num">56</p>
-                    <p class="we-item-text">тыгыдыков совершает один кот</p>
-                </li>
-                <li class="we-item">
-                    <p class="we-item-num">127</p>
-                    <p class="we-item-text">тысяч завидующих кожаных</p>
-                </li>
-                <li class="we-item">
-                    <p class="we-item-num">12</p>
-                    <p class="we-item-text">млн пользователей</p>
-                </li>
-            </ul>
+            <div class="container flex">
+                <div class="half-wigth">
+                    <h2 class="section-title">О нас</h2>
+                    <p class="section-subtitle we-subtitle">Котоff.NET</p>
+                    <p class="we-text">Котоff.NET - это первый в мире портал для семейства кошачих. Заходи к нам, когда кожаные уходят на работу. Здесь ты найдешь чем заняться и найдешь единомышленников. </p>
+                </div>
+                <div class="half-wigth">
+                    <ul class="we-list wrp-padding">
+                        <li class="we-item">
+                            <p class="we-item-num">64</p>
+                            <p class="we-item-text">создано руководств</p>
+                        </li>
+                        <li class="we-item">
+                            <p class="we-item-num">56</p>
+                            <p class="we-item-text">тыгыдыков совершает один кот</p>
+                        </li>
+                        <li class="we-item">
+                            <p class="we-item-num">127</p>
+                            <p class="we-item-text">тысяч завидующих кожаных</p>
+                        </li>
+                        <li class="we-item">
+                            <p class="we-item-num">12</p>
+                            <p class="we-item-text">млн пользователей</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="forum">
-            <h2 class="section-title">Форум</h2>
-            <p class="section-subtitle">Заходи помяукать на наш форум</p>
-            <a class="forum-link" href="#">Форум</a>
-            <img src="./img/forum.png" alt="forum">
+            <div class="container">
+                <h2 class="section-title">Форум</h2>
+                <p class="section-subtitle forum-subtitle">Заходи помяукать на наш форум</p>
+                <div class="forum-link-img flex">
+                    <a class="forum-link" href="#">Форум</a>
+                    <img src="./img/forum.png" alt="forum">
+                </div>
+            </div>
         </section>
-        <section class="feedback">
+        <section class="feedback container">
             <h2 class="section-title">Отзывы</h2>
-            <p class="section-subtitle">Ваши отзывы и предложения</p>
-            <button class="feedback-button" type="button">Оставить отзыв</button>
+            <div class="flex feedback-subtitle-button">
+                <p class="section-subtitle">Ваши благодарности</p>
+                <button class="feedback-button" type="button">Оставить отзыв</button>
+            </div>
             <ul>
-                <li>
+                <li class="feedback-item">
                     <p class="feedback-item-text">Мой самый любимый сайт! Ежедневно захожу сюда когда кожаный спит. Отличные гайды. Особенно по ночному тыгыдыку. Если хотите научится, то вам только сюда.</p>
                     <img src="./img/feedback.png" alt="feedback">
                     <p class="feedback-item-author">Василий</p>
                     <p class="feedback-item-position">Преисполнился в себе</p>
                 </li>
-                <li>
+                <li class="feedback-item display-none">
                     <p class="feedback-item-text">Мой самый любимый сайт! Ежедневно захожу сюда когда кожаный спит. Отличные гайды. Особенно по ночному тыгыдыку. Если хотите научится, то вам только сюда.</p>
                     <img src="./img/feedback.png" alt="feedback">
                     <p class="feedback-item-author">Василий</p>
                     <p class="feedback-item-position">Преисполнился в себе</p>
                 </li>
-                <li>
+                <li class="feedback-item display-none">
                     <p class="feedback-item-text">Мой самый любимый сайт! Ежедневно захожу сюда когда кожаный спит. Отличные гайды. Особенно по ночному тыгыдыку. Если хотите научится, то вам только сюда.</p>
                     <img src="./img/feedback.png" alt="feedback">
                     <p class="feedback-item-author">Василий</p>
                     <p class="feedback-item-position">Преисполнился в себе</p>
                 </li>
-                <li>
+                <li class="feedback-item display-none">
                     <p class="feedback-item-text">Мой самый любимый сайт! Ежедневно захожу сюда когда кожаный спит. Отличные гайды. Особенно по ночному тыгыдыку. Если хотите научится, то вам только сюда.</p>
                     <img src="./img/feedback.png" alt="feedback">
                     <p class="feedback-item-author">Василий</p>
                     <p class="feedback-item-position">Преисполнился в себе</p>
                 </li>
             </ul>
-            <ul>
-                <li><button type="button">.</button></li>
-                <li><button type="button">.</button></li>
-                <li><button type="button">.</button></li>
-                <li><button type="button">.</button></li>
-            </ul>
+            <div class="feedback-slider flex">
+                <ul class="flex">
+                    <li><button type="button" class="feedback-slider-button"></button></li>
+                    <li><button type="button" class="feedback-slider-button"></button></li>
+                    <li><button type="button" class="feedback-slider-button feedback-slider-button-active"></button></li>
+                    <li><button type="button" class="feedback-slider-button"></button></li>
+                </ul>
+                <div>
+                    <button class="feedback-slider-arrow" type="button" disabled><img src="./img/arrow-left.svg" alt="arrow-left"></button>
+                    <button class="feedback-slider-arrow feedback-slider-button-active" type="button"><img src="./img/arrow-right.svg" alt="arrow-right"></button>
+                </div>
+            </div>
         </section>
         
             
         
     </main>
-    <footer>
-        <div>
-            <h2>Связь с нами</h2>
-            <p>У вас есть предложения по улучшению сайта? Свяжитесь с нами.</p>
-            <ul>
-                <li>
-                    <a class="contact-link" href="tel:89127772222">
-                        <img src="./img/envelope.svg" alt="phone">
-                        <span>89127772222</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="contact-link" href="mailto:fish@kotoff.net">
-                        <img src="./img/envelope.svg" alt="mail">
-                        <span>fish@kotoff.net</span>
-                    </a>
-                </li>
-            </ul>
+    <footer class="footer">
+        <div class="contact">
+            <div class="container">
+                <div class="contact-wpr">
+                    <h2 class="contact-title">Связь с нами</h2>
+                    <p class="contact-text">У вас есть предложения по улучшению сайта? Свяжитесь с нами.</p>
+                    <ul>
+                        <li>
+                            <a class="contact-link" href="tel:89127772222">
+                                <img src="./img/envelope.svg" alt="phone">
+                                <span>89127772222</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact-link" href="mailto:fish@kotoff.net">
+                                <img src="./img/envelope.svg" alt="mail">
+                                <span>fish@kotoff.net</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="footer-text">2024 (c) Все права защищены. Котоff.NET</p>
+            <p class="footer-text">Разработано varankin dmitry</p>
         </div>
     </footer>
 </body>
