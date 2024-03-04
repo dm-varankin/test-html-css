@@ -66,6 +66,7 @@ body {
     background-color: #696969;
     background-image: url(../img/cat_bkg.jpeg);
     padding: 50px 0 530px;
+    background-size: contain;
 }
 
 .desc-title {
